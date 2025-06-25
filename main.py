@@ -72,14 +72,7 @@ if st.session_state.aktuelle_versuchsperson in person_names:
 
 from ekgdata import EKGdata
 
-ekg_id = 5  # Beispiel-ID, z.B. aus einer Auswahlbox
-ekg_obj = EKGdata.load_by_id(ekg_id)
-if ekg_obj:
-    st.write("EKG geladen mit ID:", ekg_obj.id)
-    ekg_obj.plot_time_series()
-    st.plotly_chart(ekg_obj.fig)
-else:
-    st.write("Kein EKG mit dieser ID gefunden.")
+
     
 #% Öffne EKG-Daten
 # TODO: Für eine Person gibt es ggf. mehrere EKG-Daten. Diese müssen über den Pfad ausgewählt werden können
