@@ -1,4 +1,4 @@
-# Programmierübung Aufgabe 2
+# Programmierübung Aufgabe 4
 
 ## Analyse und Visualisierung von EKG-Daten aus CSV-Dateien
 
@@ -64,6 +64,6 @@ Im Projekt werden unter anderem folgende zentrale Methoden verwendet:
 ---
 
 Hier noch eine kleiner prelook auf die Grafik: 
- ![](https://github.com/JonPer00/abgabe4/data/picutes/screen.jpg)
+ ![](https://github.com/JonPer00/abgabe4/blob/main/data/pictures/screen.jpg)
 
 Viel Spaß beim Ausprobieren und Analysieren der EKG-Daten!
